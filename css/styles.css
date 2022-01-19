@@ -1,0 +1,80 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет текста герой #FFFFFF */
+/* цвет первой части логотипа #2196F3 */
+/* цвет второй части логотипа #000000 */
+/* цвет заднего фона #2F303A */
+/* цвет ховера и фокуса #2196F3 */
+
+:root{
+--primary-text-color:#212121;
+--title-text-color: #757575 ;
+--accent-color: #2196F3;
+--background-color-1: #2F303A;
+--background-color-2: #FFFFFF ;
+}
+
+body{
+    background-color:var(--background-color-2);
+    color: var(--primary-text-color) ;
+}
+
+
+.list{
+    list-style: none;
+}
+
+/* logo section */
+.logo{
+
+}
+
+/* site-nav section */
+.site-nav .link {
+    color:var(--primary-text-color) ;
+}
+
+.site-nav .link:hover , 
+.site-nav .link:focus{
+   color: var(--accent-color); 
+}
+
+ .link.current {
+    color: var(--accent-color);
+}
+/* Hero section */
+.hero-title{
+    color:#FFFFFF ;
+    background-color:var(--background-color-1) ;
+}
+/* features section */
+.features , .title{
+   color:var(--primary-text-color) ; 
+}
+.second-text-color{
+    color: var(--title-text-color);
+}
+/* team section */
+/* Цвет должности указан в second-text-color */
+.team-section{
+    background-color: var(--background-color-2);
+}
+
+/* button section */
+.button{
+    background-color: #2196F3;
+    color: white;
+}
+/* footer section */
+.footer-section{
+    background-color: var(--background-color-1);
+}
+.contact-footer-section{
+    color: #FFFFFF99;
+}
+.address-section{
+    color: #FFFFFF;
+}
+
+
+
