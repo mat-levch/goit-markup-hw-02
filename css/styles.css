@@ -1,10 +1,3 @@
-/* основной цвет текста #212121 */
-/* вторичный цвет текста #757575 */
-/* цвет текста герой #FFFFFF */
-/* цвет первой части логотипа #2196F3 */
-/* цвет второй части логотипа #000000 */
-/* цвет заднего фона #2F303A */
-/* цвет ховера и фокуса #2196F3 */
 
 :root{
 --primary-text-color:#212121;
@@ -17,6 +10,11 @@
 body{
     background-color:var(--background-color-2);
     color: var(--primary-text-color) ;
+    font-family: Roboto , sans-serif;
+    Font style: 400 ;
+    Font size: 14px ;
+    Line height: 1,71 ;
+    Line height: 146%
 }
 
 
@@ -26,17 +24,34 @@ body{
 
 /* logo section */
 .logo{
+font-family: Raleway , sans-serif;
+Font size: 26px ;
+Line height:1,19 ;
+text-decoration: none ;
 
 }
-
+.color-logo{
+    color: var(--accent-color);
+}
+.color-logo-2{
+    color: #FFFFFF;
+}
 /* site-nav section */
 .site-nav .link {
     color:var(--primary-text-color) ;
+    Font style: 500 ;
+    Font size: 14px ;
+    Line height: 1,14 ;
+    text-decoration: none ;
+
 }
 
 .site-nav .link:hover , 
 .site-nav .link:focus{
    color: var(--accent-color); 
+   Font style: 500 ;
+    Font size: 14px ;
+    Line height: 1,14 ;
 }
 
  .link.current {
@@ -45,25 +60,61 @@ body{
 /* Hero section */
 .hero-title{
     color:#FFFFFF ;
-    background-color:var(--background-color-1) ;
+    background-color:var(--background-color-1) ;   
+    Font size: 44px ;
+    Line height: 1,36 ;
+    Line height: 116% ;
+    text-align:Center;
+    
 }
 /* features section */
 .features , .title{
    color:var(--primary-text-color) ; 
+   Font style: 700 ; 
+   Font size: 14px ;
+   Line height: 1,14 ;
 }
 .second-text-color{
     color: var(--title-text-color);
+    
+    
+}
+
+/* Чем мы занимаемся section  */
+
+.our-job{
+    Font style: Bold ;
+    Font size:  36px ;
+    Line height: 1,16 ;
+    text-align: Center ;
+    list-style: none;
 }
 /* team section */
 /* Цвет должности указан в second-text-color */
-.team-section{
-    background-color: var(--background-color-2);
+.team-section-bg-color{
+    background-color: #F5F4FA;
+}
+.team-section{    
+    font weight:700 ;
+    font style: 400 ;
+    Size: 36px ;
+    Line height : 1,17 ;
+    text-align: Center ;
+    list-style: none;
+}
+.photo{
+    list-style: none;
 }
 
 /* button section */
 .button{
     background-color: #2196F3;
     color: white;
+    Font style: 700 ;
+    Font size: 16px ;
+    Line height: 1,8 ;
+    Line height: 160% ;
+    Align : Center ;
 }
 /* footer section */
 .footer-section{
@@ -71,10 +122,38 @@ body{
 }
 .contact-footer-section{
     color: #FFFFFF99;
+    text-decoration: none ;
 }
 .address-section{
     color: #FFFFFF;
+    text-decoration: none ;
 }
 
+/* Porfolio */
 
+/* button section */
+.button-portfolio{
+    background-color: #F5F4FA; 
+    
+}
+
+.button-type{
+    font weight: 500 ;
+    font size: 16px ;
+    Line height: 1,6 ;
+    text-align: Center ;
+}
+
+.button-portfolio:hover ,
+.button-portfolio:focus{
+    color:#FFFFFF;
+    background-color: var(--accent-color);
+}
+/* Content section */
+.content-header{
+font weight: 700 ;
+font size: 18px ;
+Line height: 2 ;
+text-decoration: none ;
+}
 
