@@ -13,6 +13,7 @@ body{
     font-family: Roboto , sans-serif;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 
@@ -22,7 +23,7 @@ body{
 
 /* logo section */
 .logo{
-font-family: Raleway , sans-serif;
+font-family: Raleway,sans-serif;
 font-weight: 700; 
 font-size: 26px;
 line-height:1.19;
@@ -33,15 +34,19 @@ text-decoration: none;
     color: var(--accent-color);
 }
 .color-logo-2{
+    color: #212121;
+}
+.color-logo-footer{
     color: #FFFFFF;
 }
 /* site-nav section */
 .site-nav .link{
     color:var(--primary-text-color);
-    font-style: 500; 
+    font-weight: 500; 
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    letter-spacing: 0.02em;
 
 }
 
@@ -60,19 +65,24 @@ text-decoration: none;
 .hero-title{    
     background-color:var(--background-color-1);        
     text-align:Center;  
+
 }
 
 .hero-title-text{
     color:#FFFFFF;
     font-size: 44px;
-    line-height: 1.36;     
+    line-height: 1.36;   
+    letter-spacing: 0.06em;  
 }
 /* button section */
 .button{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
     background-color: #2196F3;
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 1.8;
+    letter-spacing: 0.06em;
 }
 /* features section */
 .features, .title{
@@ -92,7 +102,7 @@ text-decoration: none;
 /* Чем мы занимаемся section  */
 
 .our-job{
-    font-size:  36px;
+    font-size: 36px;
     line-height: 1.16;
     text-align: Center;
     list-style: none;
@@ -113,10 +123,11 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.17;  
 }
+
 .photo{
     list-style: none;
-    
 }
+
 .second-text-team{
     color: var(--title-text-color);
     font-weight: 400;
@@ -133,11 +144,21 @@ text-decoration: none;
 }
 .contact-footer-section{
     color: #FFFFFF99;
-    text-decoration: none;
+    text-decoration: none;   
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,71;
+    
 }
 .address-section{
     color: #FFFFFF;
     text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,71;
+
 }
 
 /* Porfolio */
@@ -148,10 +169,12 @@ text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
     
 }
 
 .button-type{
+    font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -164,13 +187,19 @@ text-decoration: none;
     background-color: var(--accent-color);
 }
 /* Content section */
-.content-header{
-color: #212121;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-
+.photo-portfolio{
+    list-style: none;
 }
+.photo-decoration{
+    text-decoration: none;
+}
+    .content-header{
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    }
 .second-content-header{
     color: var(--title-text-color);
     font-weight: 400;
