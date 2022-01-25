@@ -125,10 +125,11 @@ text-decoration: none;
     
 }
 
-}
+
 /* footer section */
 .footer-section{
     background-color:var(--background-color-1);
+
 }
 .contact-footer-section{
     color: #FFFFFF99;
@@ -151,9 +152,9 @@ text-decoration: none;
 }
 
 .button-type{
-    font weight: 500;
-    font size: 16px;
-    line height: 1.6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
     text-align: Center;
 }
 
